@@ -1,18 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Legal-solution-resources</title>
 
-  ---------------font---------------
-  ---------------icon---------------
-  ---------------Tailwind css---------------
-  
-  
+  <!-- ---------------font-------------- -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+
+  <!-- ---------------icon--------------- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <!-- ---------------Tailwind css--------------- -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!-- ------------style------------- -->
+  <link rel="stylesheet" href="style.css">
+
 
 </head>
+
 <body>
-  
+
+  <header class="bg-white-500">
+
+    <nav class="flex justify-between max-w-[1140px] mx-auto my-2 items-center">
+
+      <div class="logo">
+        <img src="legal-solution-resources/images/logo2.png">
+      </div>
+
+      <div class="menu_bar">
+        <ul class="flex pt-5 pr-8 pb-5 pl-8 space-x-9 font-semibold text-1xl">
+          <li><a href="">Home</a></li>
+          <li><a href="">Service</a></li>
+          <li><a href="">Course</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact US</a></li>
+        </ul>
+      </div>
+
+      <div class="button">
+        <button class="pt-4 pr-6 pb-4 pl-6 bg-[#B68C5A] font-semibold text-2xl text-white rounded-md">Free
+          Consultation</button>
+      </div>
+
+    </nav>
+
+
+    <!-- --------banner-section------- -->
+
+
+    <div style="background-image: url(./legal-solution-resources/images/banner.png);"class="bg-cover bg-center h-140 w-full flex justify-center max-w-[1140px] mx-auto items-center border ">
+
+     <div class="content-section max-w-[662] justify-center border-amber-200:">
+
+      <h1 class="text-white text-6xl text-center font-extrabold max-w-[662]:">We Provide Effective<br>Legal Solutions</h1>
+      <p class="max-w-[662] text-white text-center mt-5  ">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
+
+      <div class="form-section mt-5 max-w-[662px] mx-auto flex justify-center ">
+        <input class="bg-white pt-4 pr-6 pb-4 pl-6 w-full mr-8 rounded-md" type="search" name="search" id="search" placeholder="search your service">
+        <button class="pt-4 pr-6 pb-4 pl-6 bg-[#B68C5A] text-white font-extrabold rounded-md">Search</button>
+      </div>
+
+
+     </div>
+    </div>
+
+
+
+
+  </header>
+
+
 </body>
+
 </html>
